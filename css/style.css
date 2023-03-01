@@ -2336,7 +2336,7 @@ body {
 }
 .footer_block_document_wrap_top a {
   font-family: "Lato";
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #0E5233;
@@ -2375,7 +2375,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Lato";
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #0E5233;
