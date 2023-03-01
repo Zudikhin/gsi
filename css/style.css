@@ -278,8 +278,8 @@ body {
             transform: translatey(0px);
   }
   50% {
-    -webkit-transform: translatey(-30px);
-            transform: translatey(-30px);
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
   }
   100% {
     -webkit-transform: translatey(0px);
@@ -292,12 +292,98 @@ body {
             transform: translatey(0px);
   }
   50% {
-    -webkit-transform: translatey(-30px);
-            transform: translatey(-30px);
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
   }
   100% {
     -webkit-transform: translatey(0px);
             transform: translatey(0px);
+  }
+}
+@-webkit-keyframes floatDown {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(10px);
+            transform: translatey(10px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+@keyframes floatDown {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(10px);
+            transform: translatey(10px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+@media (min-width: 768px) {
+  @-webkit-keyframes floatUp {
+    0% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      -webkit-transform: translatey(-20px);
+              transform: translatey(-20px);
+    }
+    100% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+  @keyframes floatUp {
+    0% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      -webkit-transform: translatey(-20px);
+              transform: translatey(-20px);
+    }
+    100% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+  @-webkit-keyframes floatDown {
+    0% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      -webkit-transform: translatey(20px);
+              transform: translatey(20px);
+    }
+    100% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+  @keyframes floatDown {
+    0% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      -webkit-transform: translatey(20px);
+              transform: translatey(20px);
+    }
+    100% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
   }
 }
 .anime {
@@ -347,10 +433,10 @@ body {
 .main_block div.graph img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-name: floatUp;
-  animation-name: floatUp;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-name: floatDown;
+  animation-name: floatDown;
   -webkit-animation-delay: 2.2s;
   animation-delay: 2.2s;
 }
@@ -370,10 +456,10 @@ body {
 .main_block div.sber img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 5.6s;
-          animation-duration: 5.6s;
-  -webkit-animation-name: floatUp;
-  animation-name: floatUp;
+  -webkit-animation-duration: 7.2s;
+          animation-duration: 7.2s;
+  -webkit-animation-name: floatDown;
+  animation-name: floatDown;
   -webkit-animation-delay: 2.2s;
   animation-delay: 2.2s;
 }
@@ -393,8 +479,8 @@ body {
 .main_block div.yandex img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 7.1s;
+          animation-duration: 7.1s;
   -webkit-animation-name: floatUp;
   animation-name: floatUp;
   -webkit-animation-delay: 2.2s;
@@ -416,8 +502,8 @@ body {
 .main_block div.sber_tablet img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
+  -webkit-animation-duration: 7.2s;
+          animation-duration: 7.2s;
   -webkit-animation-name: floatUp;
   animation-name: floatUp;
   -webkit-animation-delay: 2.2s;
@@ -439,8 +525,8 @@ body {
 .main_block div.yandex_tablet img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 2.8s;
-          animation-duration: 2.8s;
+  -webkit-animation-duration: 7.1s;
+          animation-duration: 7.1s;
   -webkit-animation-name: floatUp;
   animation-name: floatUp;
   -webkit-animation-delay: 2.2s;
@@ -465,8 +551,8 @@ body {
 .main_block div.man img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
   -webkit-animation-name: floatUp;
   animation-name: floatUp;
   -webkit-animation-delay: 2.2s;
@@ -491,10 +577,10 @@ body {
 .main_block div.gaz img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 5.8s;
-          animation-duration: 5.8s;
-  -webkit-animation-name: floatUp;
-  animation-name: floatUp;
+  -webkit-animation-duration: 7.2s;
+          animation-duration: 7.2s;
+  -webkit-animation-name: floatDown;
+  animation-name: floatDown;
   -webkit-animation-delay: 2.2s;
   animation-delay: 2.2s;
 }
@@ -516,10 +602,10 @@ body {
 .main_block div.sber_mob img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  -webkit-animation-name: floatUp;
-  animation-name: floatUp;
+  -webkit-animation-duration: 7.2s;
+          animation-duration: 7.2s;
+  -webkit-animation-name: floatDown;
+  animation-name: floatDown;
   -webkit-animation-delay: 2.2s;
   animation-delay: 2.2s;
 }
@@ -541,8 +627,8 @@ body {
 .main_block div.yandex_mob img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 2.8s;
-          animation-duration: 2.8s;
+  -webkit-animation-duration: 7.1s;
+          animation-duration: 7.1s;
   -webkit-animation-name: floatUp;
   animation-name: floatUp;
   -webkit-animation-delay: 2.2s;
@@ -1806,6 +1892,7 @@ body {
   position: relative;
   width: 100%;
   z-index: 2;
+  cursor: pointer;
 }
 .get_block_right_main.animation {
   -webkit-animation-duration: 1s;

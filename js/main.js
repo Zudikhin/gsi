@@ -1,5 +1,17 @@
 $(document).ready(function () {
     "use strict";
+
+    $(".main_text_btn").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".form").offset().top - 200
+        }, 2000);
+    });
+
+    $(".get_block_right_main").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".form").offset().top - 200
+        }, 750);
+    });
     
     const inViewport = (elem) => {
         let allElements = document.getElementsByClassName(elem);
