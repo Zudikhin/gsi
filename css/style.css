@@ -456,8 +456,8 @@ body {
 .main_block div.sber img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 7.2s;
-          animation-duration: 7.2s;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
   -webkit-animation-name: floatDown;
   animation-name: floatDown;
   -webkit-animation-delay: 2.2s;
@@ -479,8 +479,8 @@ body {
 .main_block div.yandex img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 7.1s;
-          animation-duration: 7.1s;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
   -webkit-animation-name: floatUp;
   animation-name: floatUp;
   -webkit-animation-delay: 2.2s;
@@ -502,10 +502,10 @@ body {
 .main_block div.sber_tablet img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 7.2s;
-          animation-duration: 7.2s;
-  -webkit-animation-name: floatUp;
-  animation-name: floatUp;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
   -webkit-animation-delay: 2.2s;
   animation-delay: 2.2s;
 }
@@ -525,8 +525,8 @@ body {
 .main_block div.yandex_tablet img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 7.1s;
-          animation-duration: 7.1s;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
   -webkit-animation-name: floatUp;
   animation-name: floatUp;
   -webkit-animation-delay: 2.2s;
@@ -577,8 +577,8 @@ body {
 .main_block div.gaz img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 7.2s;
-          animation-duration: 7.2s;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
   -webkit-animation-name: floatDown;
   animation-name: floatDown;
   -webkit-animation-delay: 2.2s;
@@ -602,8 +602,8 @@ body {
 .main_block div.sber_mob img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 7.2s;
-          animation-duration: 7.2s;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
   -webkit-animation-name: floatDown;
   animation-name: floatDown;
   -webkit-animation-delay: 2.2s;
@@ -627,8 +627,8 @@ body {
 .main_block div.yandex_mob img.animation {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-duration: 7.1s;
-          animation-duration: 7.1s;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
   -webkit-animation-name: floatUp;
   animation-name: floatUp;
   -webkit-animation-delay: 2.2s;
